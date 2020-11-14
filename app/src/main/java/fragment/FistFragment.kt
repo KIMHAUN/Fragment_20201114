@@ -35,7 +35,7 @@ class FistFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
 
         toastBtn.setOnClickListener {
-            //context : 나를 들고 있는 화면이 null이 아니다(화면 생성 후이기 때문에)
+            //context!! : 나를 들고 있는 화면이 null이 아니다(화면 생성 후이기 때문에)
             Toast.makeText(context!!, "프래그먼트로 토스트 띄우기", Toast.LENGTH_SHORT).show()
 
         }
