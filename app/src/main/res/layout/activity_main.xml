@@ -11,9 +11,12 @@
         android:tag="첫 프래그먼트"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        class="fragment.FistFragment"
+        class="fragment.FistFragment" />
 
-
-        />
+    <fragment
+        android:tag="두번째 프래그먼트"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        class="fragment.SecondFragment" />
 
 </LinearLayout>
