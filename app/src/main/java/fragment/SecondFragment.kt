@@ -24,7 +24,11 @@ class SecondFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         alertBtn.setOnClickListener {
-
+            val alert = AlertDialog.Builder(context!!)
+            alert.setTitle("프래그먼트 연습")
+            alert.setMessage("프래그먼트에서 alert을 띄웁니다.")
+            alert.setPositiveButton("확인", null)
+            alert.show()
         }
     }
 }
